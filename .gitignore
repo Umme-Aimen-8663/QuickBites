@@ -1,3 +1,9 @@
+# Local environment files
+# Never commit actual environment files or secrets.
+.env
+.env.*
+!.env.example
+
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
@@ -29,9 +35,6 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
-
-# local env files
-.env*.local
 
 # typescript
 *.tsbuildinfo
